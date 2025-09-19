@@ -154,11 +154,6 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ---
 
-## License
-This project is licensed under the MIT License.
-
----
-
 ## Acknowledgments
 - [Google Generative AI](https://ai.google/) for powering the AI features.
 - [MongoDB](https://www.mongodb.com/) for database management.
