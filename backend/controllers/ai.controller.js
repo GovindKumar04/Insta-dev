@@ -30,7 +30,7 @@ export const aiCodeGen = async(req, res) =>{
         
         // Sanitize the string by removing control characters before parsing
         const sanitizedResult = result.replace(/[\x00-\x1F\x7F-\x9F]/g, '');
-
+        console.log("Sanitized Result: ", sanitizedResult);
         return res.status(200).json({
             message: "Ai code response", 
             success: true,
