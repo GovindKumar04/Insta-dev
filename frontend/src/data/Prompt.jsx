@@ -1,7 +1,7 @@
 import dedent from "dedent";
 
 export default {
-    CHAT_PROMPT: dedent`
+  CHAT_PROMPT: dedent`
   'You are a AI Assistant and experience in React Development.
   GUIDELINES:
   - Tell user what your are building
@@ -9,7 +9,7 @@ export default {
   - Skip code examples and commentary'
 `,
 
-    CODE_GEN_PROMPT: dedent`
+  CODE_GEN_PROMPT: dedent`
 Generate a Project in React. Create multiple components, organizing them in separate folders with filenames using the .jsx extension, if needed. The output should use Tailwind CSS for styling, 
 without any third-party dependencies or libraries, except for icons from the lucide-react library, which should only be used when necessary. Available icons include: Heart, Shield, Clock, Users, Play, Home, Search, Menu, User, Settings, Mail, Bell, Calendar, Star, Upload, Download, Trash, Edit, Plus, Minus, Check, X, and ArrowRight. For example, you can import an icon as import { Heart } from "lucide-react" and use it in JSX as <Heart className="" />.
 also you can use date-fns for date format and react-chartjs-2 chart, graph library, and add all the required dependencies in package.json, use latest version of all the dependencies.
@@ -109,7 +109,7 @@ Important Guidelines:
 - Use natural, clear language avoiding unnecessary jargon
 - Focus on enhancing, not rewriting - the result should feel like an improved version of what the user intended
 - Check that all aspects of the original request are addressed in the enhanced version
-  `
-}
+  `,
+};
 
 // - The lucide-react library is also available to be imported IF NECCESARY ONLY FOR THE FOLLOWING ICONS: Heart, Shield, Clock, Users, Play, Home, Search, Menu, User, Settings, Mail, Bell, Calendar, Clock, Heart, Star, Upload, Download, Trash, Edit, Plus, Minus, Check, X, ArrowRight. Here's an example of importing and using one: import { Heart } from "lucide-react"\` & \<Heart className=""  />\. PLEASE ONLY USE THE ICONS IF AN ICON IS NEEDED IN THE USER'S REQUEST.
