@@ -10,7 +10,7 @@ InstaDev is a full-stack application designed to provide AI-powered tools for de
 - **AI Integration**: 
   - Chat generation, code generation, and prompt enhancement using the Gemini AI model.
 - **User Authentication**:
-  - Google OAuth-based login and JWT for session management.
+  - Google OAuth-based login and JWT for login management.
 - **Workspace Management**:
   - Create, update, and manage workspaces with messages and file data.
 - **Database**:
