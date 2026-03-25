@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+tmp/
+out/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Debug folders
+coverage/
+.nyc_output/
+
+# Optional npm cache folder
+.npm/
+
+# Optional REACT / VITE / CRA cache
+.cache/
+.vite/
+*.tgz
+
+# Testing
+jest.config.js
+coverage/
+
+# Others
+*.swp
+.idea/
+*.sublime-workspace
+*.sublime-project
