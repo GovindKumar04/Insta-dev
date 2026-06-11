@@ -1,4 +1,4 @@
-import dotenv from "dotenv";
+import dotenv from "dotenv/config";
 import express from "express";
 import connnectDB from "./db/connectDB.js";
 import cookieParser from "cookie-parser";
@@ -8,9 +8,9 @@ import workspaceRoute from "./routes/workspace.route.js"
 import cors from "cors"
 import path from "path"
 
-dotenv.config({
-    path: "./.env"
-})
+// dotenv.config({
+//     path: "./.env"
+// })
 
 const app = express();
 const port = process.env.PORT || 5000;
